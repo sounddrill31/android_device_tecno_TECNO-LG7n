@@ -10,5 +10,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     omni_LG7n-user \
-    omni_TECNO-LG7n-userdebug \
-    omni_TECNO-LG7n-eng
+    omni_LG7n-userdebug \
+    omni_LG7n-eng
