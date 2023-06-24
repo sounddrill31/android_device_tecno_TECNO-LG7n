@@ -41,6 +41,10 @@ on:
         description: 'BUILD_TARGET'
         required: true
         default: 'vendor'
+      IMAGE_TARGET:
+        description: 'IMAGE_TARGET'
+        required: true
+        default: 'vendor_boot'
 
 jobs:
   build:
