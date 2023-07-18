@@ -101,7 +101,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 VENDOR_SECURITY_PATCH := 2021-08-01
 
 # Verified Boot
-BOARD_AVB_ENABLE := true
+BOARD_AVB_ENABLE := false
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Hack: prevent anti rollback
