@@ -25,8 +25,15 @@ PRODUCT_SHIPPING_API_LEVEL := 32
 PRODUCT_PACKAGES += \
     bootctrl.mt6789
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.mt6789 \
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#    bootctrl.mt6789 \
+#    libgptutils \
+#    libz \
+#    libcutils
+PRODUCT_PACKAGES += \
+    bootctrl.TECNO_LG7n \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-service \
     libgptutils \
     libz \
     libcutils
