@@ -44,7 +44,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
-​
 TARGET_OTA_ASSERT_DEVICE := TECNO-LG7n
 
 TARGET_COPY_OUT_VENDOR := vendor
