@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 #    libz \
 #    libcutils
 PRODUCT_PACKAGES += \
-    bootctrl.TECNO_LG7n \
+    bootctrl.mt6789 \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
     libgptutils \
