@@ -32,4 +32,8 @@ PRODUCT_PACKAGES += \
     cppreopts.sh \
     update_engine \
     update_verifier \
-    update_engine_sideload
+    update_engine_sideload \
+    fastbootd
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_SHIPPING_API_LEVEL := 32
+
